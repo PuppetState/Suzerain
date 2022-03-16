@@ -1,4 +1,8 @@
 <?php
+/***
+ * DON'T USE THIS WEBHOOK!
+ * IT'S CAN'T RUNNING ON ANY SERVER!
+ */
  $where = __DIR__
  $serverdo = 'cd' $where '|git pull'
  $serverdid = shell_exec($serverdo);
