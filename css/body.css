@@ -1,0 +1,12 @@
+/* It's only use to set body css to make all pages be general css. */
+/* It's be a global css file for website, all chanages need think after before you marge */
+body
+{
+    background-color: white; color: black; font-family: 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', sans-serif;
+}
+/* Assign style to page body */
+h1
+{
+    border: 0; border-bottom: 1px dashed;
+}
+/* Special assign h1 style */
