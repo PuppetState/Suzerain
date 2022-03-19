@@ -5,6 +5,13 @@
 <link rel="stylesheet" type="text/css" href="/css/body.css">
 </head>
 <body>
+    <form>
+        Language Select
+        <select onchange="window.open(this.options[this.selectedIndex].value)" id="select">
+            <option selected="selected" value="index.html">English</option>
+            <option value = "index-zh.html">Chinese</option>
+        </select>
+    </form>
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/60px-Flag_of_Hong_Kong.svg.png" alt="Flag of Hong Kong"></img> <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/60px-Flag_of_the_People%27s_Republic_of_China.svg.png" alt="Flag of China"></img>
 
 <h1> Puppet State</h1>
@@ -15,7 +22,16 @@ Welcome! Here are the guides of this website, you can found anything (hmmmm.... 
 <br>
 We're need a marger to help us handle update request.
 <hr>
-<a href="https://puppetstate.net/whoami">Who am I?</a>
+<a href="whoami.html">Who am I?</a>
 <address>CC-BY-SA 3.0, pictures from Wikimedia Commons, copyright holders may have additional licenses.</address>
+<br>
+<form>
+    Website Quick Guide
+    <select onchange="window.open(this.options[this.selectedIndex].value)" id="select">
+        <option selected="selected">Choose one</option>
+        <option value="index.html">Index</option>
+        <option value = "whoami.html">About me</option>
+    </select>
+</form>
 </body>
 </html>
